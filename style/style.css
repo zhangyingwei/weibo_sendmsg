@@ -1,0 +1,161 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background: url(../images/bg.gif);
+	font-family: "微软雅黑";
+}
+
+li{
+	float: left;
+	margin: 1px;
+	list-style: none;
+}
+
+img{
+	margin-left: 3px;
+}
+
+.clear{
+	clear: both;
+}
+
+.msg{
+	margin: 50px auto;
+	border-radius: 2px;
+	background: #fff;
+	border: 1px solid grey;
+	width: 573px;
+	height: 160px;
+	padding: 0px 10px;
+	display: block;
+}
+
+.msg .m_title{
+	font-size: 14px;
+	line-height: 40px;
+	float: left;
+}
+
+.msg .m_msg{
+	border: 1px solid #FC7D3C;
+	width: 553px;
+	height: 50px;
+	margin-bottom: 5px;
+	padding: 10px;
+	font-size: 14px;
+	float: left;
+	word-wrap: break-word;
+}
+
+.msg .m_sum{
+	font-size: 12px;
+	float: right;
+	line-height: 40px;
+	margin-right: 10px;
+}
+
+.msg .m_sum span{
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.msg .m_face{
+	font-size: 14px;
+	height: 30px;
+}
+.msg .m_face a{
+	text-decoration: none;
+	float: left;
+}
+.msg .m_face a img{
+	margin-left: 3px;
+	margin-top: 6px;
+	margin-right: 4px;
+	float: left;
+}
+.msg .m_face a div{
+	color: #000;
+	line-height: 32px;
+	float: left;
+}
+
+.msg .m_face .m_bu{
+	width: 80px;
+	height: 30px;
+	float: right;
+	background: #F7671D;
+	border: 0px;
+	border-radius: 3px;
+	margin-top: 3px;
+	font-size: 15px;
+	color: #fff;
+}
+
+.msg .m_faces{
+	border-radius: 2px 2px 2px;
+	background: #fff;
+	border: 1px solid grey;
+	float: left;
+	display: block;
+	width: 360px;
+	padding: 10px;
+	margin: 0px;
+	display: none;
+}
+
+.msg .m_faces ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.msg .m_faces ul li{
+	float: left;
+	display: block;
+	margin: 1px;
+	cursor: pointer;
+}
+
+.showF{
+	display: none;
+}
+
+.show{
+	margin: 20px auto;
+	border-radius: 2px;
+	background: #fff;
+	border: 1px solid grey;
+	width: 580px;
+	padding: 5px;
+	display: none;
+}
+
+.show .s_logo{
+	margin:0px;
+	padding: 0px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 5px;
+}
+
+.show .s_logo img{
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	float: left;
+}
+
+.show .s_logo p{
+	font-size: 14px;
+	
+	font-weight: bolder;
+	float: left;
+	line-height: 40px;
+	margin-left: 10px;
+}
+
+.show .s_msg{
+	font-size: 14px;
+	padding:10px;
+}
